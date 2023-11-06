@@ -17,7 +17,7 @@ function updated {
 function install_basics {
   sudo apt install  curl tilix flatpak yakuake openssh-server xterm zenity solaar \
                     git vim htop most zsh python3-pip fonts-powerline libutempter0 bat \
-                    git-extras openjdk-18-jdk fzf apt-transport-https gnome-software-plugin-flatpak -y
+                    git-extras openjdk-22-jdk fzf apt-transport-https gnome-software-plugin-flatpak -y
   sudo snap install lsd
   pip3 install tldr setuptools
   sudo apt install dconf-cli
